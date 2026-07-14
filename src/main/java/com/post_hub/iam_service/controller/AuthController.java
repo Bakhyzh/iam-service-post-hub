@@ -28,7 +28,6 @@ public class AuthController {
     private final AuthService authService;
     private final MailSenderService mailSenderService;
 
-
     @PostMapping("${end.points.login}")
     @Operation(
             summary = "User login",
