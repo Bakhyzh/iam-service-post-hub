@@ -1,4 +1,4 @@
-# Business Logic for the Project
+# Business Logic for the Project 
 
 ## Main Entities:
 - **User**: Represents a user in the system.
