@@ -96,13 +96,6 @@ public class AuthController {
         mailSenderService.validateToken(token);
         return ResponseEntity.ok(IamResponse.createSuccessful("Email confirmed"));
     }
-    @GetMapping("${end.points.confirm}")
-    public ResponseEntity<IamResponse<String>> registerConfirmation(
-            @RequestParam String token) {
-        log.trace(ApiLogMessage.NAME_OF_CURRENT_METHOD.getValue(), ApiUtils.getMethodName());
 
-        mailSenderService.validateToken(token);
-        return ResponseEntity.ok(IamResponse.createSuccessful("Email confirmed"));
-    }
 
 }
