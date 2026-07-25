@@ -97,5 +97,4 @@ public class AuthController {
         return ResponseEntity.ok(IamResponse.createSuccessful("Email confirmed"));
     }
 
-
 }
