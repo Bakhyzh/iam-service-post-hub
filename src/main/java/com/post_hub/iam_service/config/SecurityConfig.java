@@ -73,6 +73,7 @@ public class SecurityConfig {
             new AntPathRequestMatcher("/swagger-ui.html"),
             new AntPathRequestMatcher("/webjars/**"),
             new AntPathRequestMatcher("/actuator/**"),
+            new AntPathRequestMatcher("/oauth2/**"),
             new AntPathRequestMatcher("/oauth2/**")
     };
 
